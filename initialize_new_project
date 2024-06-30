@@ -1,0 +1,13 @@
+to initialize a new project "npm init --y"
+you will get node modules once you install a module like express npm i express
+
+to start the db from data.sql you need to createdb biztime
+
+
+and then psql
+then \c biztime or psql -d biztime
+then \i data.sql
+
+
+to test:
+npm install --save-dev jest supertest
